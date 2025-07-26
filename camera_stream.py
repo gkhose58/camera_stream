@@ -24,7 +24,7 @@ def start_camera_feed():
 
         # Wait for 1 millisecond and check for a key press
         # If 'q' is pressed, break the loop to quit
-        if cv2.(1) & 0xFF == ord('q'):
+        if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
     # Release the camera and destroy all OpenCV windows
@@ -32,4 +32,4 @@ def start_camera_feed():
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    start_camera_feed()waitKey
+    start_camera_feed()

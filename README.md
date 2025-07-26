@@ -5,4 +5,4 @@ python code to stream camera using different libs
 ``` pip install opencv-python ```
 
 # run command
-``` python camera_feed.py ```
+``` python camera_stream.py ```
